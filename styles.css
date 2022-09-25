@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blue-bgnd {
+    background-color: #1f2937;
+}
+
+.reception {
+    padding: 0 170px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 18px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-links, .hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+
+
+
+
