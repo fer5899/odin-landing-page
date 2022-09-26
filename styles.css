@@ -8,12 +8,32 @@ a {
     text-decoration: none;
 }
 
+p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    border-radius: 8px;
+
+}
+
 .blue-bgnd {
     background-color: #1f2937;
 }
 
 .reception {
     padding: 0 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header {
@@ -21,7 +41,7 @@ a {
     justify-content: space-between;
     align-items: baseline;
     padding-top: 18px;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
 }
 
 .logo {
@@ -38,10 +58,30 @@ a {
     padding: 0;
 }
 
-.header-links, .hero-text p {
+.secondary-text, a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 130px;
+}
+
+.hero-text h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-text p {
+    margin-top: 2px;
+    margin-bottom: 14px;
+}
+
+
 
 
 
