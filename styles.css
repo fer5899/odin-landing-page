@@ -162,7 +162,7 @@ button {
     padding-right: 40px;
 }
 
-/* CALL TO ACTION STYLING */
+/* CALL TO ACTION SECTION STYLING */
 
 .action-container {
     display: flex;
@@ -187,7 +187,14 @@ button {
     font-size: 18px;
 }
 
+/* FOOTER SECTION STYLING */
 
+.footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
 
 
 
